@@ -1,0 +1,15 @@
+# Ignore Eclipse and IDE files
+.metadata/
+*.iml
+.idea/
+.vscode/
+
+# Ignore build outputs
+target/
+dist/
+node_modules/
+build/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
