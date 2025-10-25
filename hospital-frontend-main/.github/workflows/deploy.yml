@@ -11,7 +11,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: HOSPITAL-FRONTEND-MAIN  # exact frontend folder name
+        working-directory: hospital-frontend-main  # exact frontend folder name
 
     steps:
       - name: Checkout repo
@@ -32,4 +32,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: HOSPITAL-FRONTEND-MAIN/dist  # must point to dist folder
+          publish_dir: hospital-frontend-main/dist  # must point to dist folder
